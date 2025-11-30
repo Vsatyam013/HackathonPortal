@@ -46,4 +46,4 @@ REFERENCES teams(id);
 INSERT INTO teams (name) VALUES ('ADMIN-AA45');
 
 -- Adding me as default admin
-INSERT INTO users (name, email_id, team_id, isAdmin) VALUES ('Bhaskar', 'bhaskarmandal369@gmail.com', 1, true);
+INSERT INTO users (name, email_id, team_id, isAdmin) VALUES ('SATYAM', 'ms22btech11022@iith.ac.in', 1, true);

@@ -25,7 +25,7 @@ func InitLogger() {
 
 	logger.Info("logging started")
 
-	err := WriteLogs("logs/"+strconv.Itoa(45), "hello@bhaskaraa45.me", "message", "xx22btech110xx@iith.ac.in")
+	err := WriteLogs("logs/"+strconv.Itoa(45), "hello@satyam.me", "message", "ms22btech11022@iith.ac.in")
 	if err != nil {
 		fmt.Println(err)
 		panic(err.Error())
